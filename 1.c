@@ -10,7 +10,7 @@ struct calender *c;
 int i;
 void create()
 {
-    c=(struct calender*)malloc(sizeof(struct calender));
+    c=(struct calender*)malloc(7*sizeof(struct calender));
 }
 void read()
 {   
